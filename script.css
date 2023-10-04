@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#mnb-box{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 245px;
+}
+#mni1{
+    display: flex;
+    width: 540px;
+    height: 90%;
+}
+#mni2{
+    display: grid;
+    grid-template-columns: 100px 1200px;
+    grid-template-rows: 220px;
+    width: 1300px;
+    height: 90%;
+}
+#mni3{
+    display: flex;
+    width: 2700px;
+    height: 90%;
+}
+#mni4{
+    display: flex;
+    width: 300px;
+    height: 90%;
+}
+#mni5{
+    width: 540px;
+    height: 90%;
+}
+#mni6{
+    width: 330px;
+    height: 90%;
+}
+#mni7{
+    display: flex;
+    width: 350px;
+    height: 90%;
+}
+#mnbp1{
+    width: 460px;
+    height: 200px;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+.mni2text1{
+    font-size: 50px;
+    color: rgb(216, 213, 213);
+    font-family: sans-serif;
+    font-weight: 510;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#mni2pic{
+    width: 70px;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 95px;
+}
+.mni2text2{
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 35px;
+}
+#mni3a{
+    background-color: rgb(203, 209, 214);
+    width: 210px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    color: grey;
+}
+#mni3atext{
+    font-size: 48px;
+    font-family: sans-serif;
+    padding: 50px 0 0 40px ;
+}
+#mni3ba{
+    background-color: white;
+    height: 160px;
+    width: 2220px;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+.mnicolor{
+    color: rgb(223, 212, 212);
+    font-weight: bold;
+    font-size: 47px;
+}
+#mni3c{
+    background-color: rgb(226, 202, 63);
+    width: 180px;
+    height: 160px;
+    margin-top: 30px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+#dotin{
+    width: 90px;
+    height: 90%;
+    padding-top: 75px;
+}
+.mni4a{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+input,
+input::placeholder{
+    font-size: 60px;
+    padding-left: 10px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+#secnavbar{
+    display: flex;
+    background-color: #1f2323;
+    width: 100%;
+    height: 155px;
+}
+#snb1{
+    display: flex;
+    width: 300px;
+    height: 100%;
+}
+#snb1text{
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+.snbtext{
+    color: white;
+    font-size: 56px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+#mainframe{
+    background-color: rgb(206, 187, 187);
+    width: 100%;
+    height: 2700px;
+}
+#mainframe2{
+    background-color: rgb(206, 187, 187);
+    width: 100%;
+    height: 5000px;
+}
+#mf2gridbox{
+    display: grid;
+    grid-template-columns: 1505px 1425px 1425px 1425px;
+    grid-template-rows: 1650px;
+    column-gap: 70px;
+    padding-top: 35px;
+}
+.main2aitem{
+    background-color: white;
+}
+#main1{
+    background-image:url('amzmainimg.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+}
+#main1a{
+    display: grid;
+    grid-template-columns: 1425px 1425px 1425px 1425px;
+    grid-template-rows: 1650px;
+    column-gap: 70px;
+    width: 100%;
+    height: 1650px;
+    top: 1000px;
+    margin-left: 80px;
+    margin-bottom: 1px; 
+}
+.main1aitem{
+    background-color: white;
+}
+.maintext1{
+    color: black;
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-top: 85px;
+    margin-left: 70px;
+}
+.main1aitema{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 600px 600px;
+    column-gap: 70px;
+    row-gap: 30px;
+    width: 90%;
+    height: 85%;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+.m1itemsa{
+    background-color: red;
+}
+.m1ipic{
+    width: 100%;
+    height: 460px;
+}
+.m1aitext{
+    font-size: 46px;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.griditemtxt{
+    color: rgb(24, 99, 99);
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.m1i3pic{
+    width: 100%;
+    height: 410px;
+}
+.main1aitema3{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 560px 560px;
+    column-gap: 70px;
+    row-gap: 20px;
+    width: 90%;
+    height: 85%;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+#m1ai4{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+}
+#m1ai4txt{
+    padding-top: 85px;
+    color: black;
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-left: 90px;
+}
+#signinsecure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 130px;
+    background-color: rgb(240, 222, 22);
+    margin-left: 90px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+#signin2{
+    font-size: 53px;
+    font-family: sans-serif;
+
+}
+#mainframe2-1{
+    background-color: white;
+    width: 100%;
+    height: 1500px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#mf2-1grid{
+    display: grid;
+    grid-template-columns: 950px 950px 1250px 950px 1150px 950px;
+    grid-template-rows: 1200px;
+    column-gap: 40px;
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.mf2-1items{
+    background-color: white;
+}
+.mfprice{
+    color: black;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.mfprice2{
+    color: rgb(198, 53, 53);
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 25px;
+
+}
+.mfprice3{
+    font-size: 47px;
+    font-family: sans-serif;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
